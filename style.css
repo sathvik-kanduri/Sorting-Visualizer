@@ -20,7 +20,13 @@ body {
     width: 10px;
     transition: 0.1s all ease;
 }
-
+.bar-col {
+    width: 8px;
+    background-color: rgb(285, 165, 54);
+    margin-right: 2px;
+    display: inline-block;
+    border: none;
+}
 .row{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
